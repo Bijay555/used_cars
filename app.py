@@ -5,8 +5,7 @@ import pandas as pd
 from sklearn.preprocessing import OrdinalEncoder
 import matplotlib.pyplot as plt
 import pickle
-# from notebook.recommend import recommend_func
-from notebook.recom import recommend_func
+from recom import recommend_func
 
 import warnings
 
