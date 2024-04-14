@@ -12,6 +12,22 @@ import warnings
 # Ignore specific warnings
 warnings.filterwarnings("ignore")
 
+# Set a background image URL
+background_image = 'images/car.jpg'
+html_code  = f"""
+<style>
+[data-testid="stAppViewContainer"] > .main {{
+background-image: url('{background_image}');
+background-size: 110%;
+background-position: top left;
+background-repeat:repeat;
+background-attachment: local;
+}}
+</style>
+"""
+
+# Display the HTML code using st.markdown
+st.markdown(html_code, unsafe_allow_html=True)
 
 # importing dataset
 df = pd.read_csv('dataset/car_data.csv')
