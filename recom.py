@@ -45,7 +45,7 @@ def recommend_func(data, min_price, max_price, **kwargs):
         rec = filtered_data.iloc[car_indices.flatten()[1:6]]
 
 
-        return rec['manufacturer','model','condition', 'cylinders','year','price']
+        return rec[['manufacturer','model','condition', 'cylinders','year','price']]
     
     else:
         # Sort cars based on optimal value (e.g., manufacturing year, odometer)

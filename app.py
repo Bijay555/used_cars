@@ -13,68 +13,21 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # # Set a background image URL
-# background_image = 'https://raw.githubusercontent.com/Bijay555/used_cars/prod/images/car.jpg'
+# background_image = 'https://raw.githubusercontent.com/Bijay555/used_cars/prod/images/car2.jpg'
 # html_code  = f"""
 # <style>
 # [data-testid="stAppViewContainer"] > .main {{
 # background-image: url('{background_image}');
 # background-size: cover;
-# background-position: top left;
-# background-repeat:repeat;
-# background-attachment: local;
+# background-position: right;
+# background-repeat:no-repeat;
+# background-attachment: fixed;
 # }}
 # </style>
 # """
 
 # # Display the HTML code using st.markdown
 # st.markdown(html_code, unsafe_allow_html=True)
-
-# Set a background image URL
-background_image = 'https://raw.githubusercontent.com/Bijay555/used_cars/prod/images/car.jpg'
-html_code = f"""
-<style>
-/* Background styling */
-[data-testid="stAppViewContainer"] > .main {{
-    background-image: url('{background_image}');
-    background-size: 90%; /* Ensure the background image covers the entire container */
-    background-position: left; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent the background image from repeating */
-    background-attachment: fixed; /* Fixed background position as the user scrolls */
-}}
-
-/* Page content styling */
-.stAppView > div > div > div > div > div {{
-    background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent white overlay to improve readability */
-    padding: 20px; /* Add padding to the content */
-    border-radius: 10px; /* Add border radius for rounded corners */
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
-}}
-
-/* Title styling */
-.stAppView > div > div > div > div > div > div > div > div > div > div > h1 {{
-    color: #333; /* Set title color */
-    text-align: center; /* Center align the title */
-}}
-
-/* Button styling */
-.stButton>button {{
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 8px; /* Add border radius for rounded buttons */
-}}
-</style>
-"""
-
-# Display the HTML code using st.markdown
-st.markdown(html_code, unsafe_allow_html=True)
 
 
 # importing dataset
