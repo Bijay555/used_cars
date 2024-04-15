@@ -5,6 +5,7 @@ import pandas as pd
 from sklearn.preprocessing import OrdinalEncoder
 import matplotlib.pyplot as plt
 import pickle
+import lightgbm
 from recom import recommend_func
 
 import warnings
@@ -12,22 +13,6 @@ import warnings
 # Ignore specific warnings
 warnings.filterwarnings("ignore")
 
-# # Set a background image URL
-# background_image = 'https://raw.githubusercontent.com/Bijay555/used_cars/prod/images/car2.jpg'
-# html_code  = f"""
-# <style>
-# [data-testid="stAppViewContainer"] > .main {{
-# background-image: url('{background_image}');
-# background-size: cover;
-# background-position: right;
-# background-repeat:no-repeat;
-# background-attachment: fixed;
-# }}
-# </style>
-# """
-
-# # Display the HTML code using st.markdown
-# st.markdown(html_code, unsafe_allow_html=True)
 
 
 # importing dataset
