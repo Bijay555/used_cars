@@ -1,6 +1,6 @@
 # Used-Car-Price-Prediction-Model
 
-<img src="https://github.com/Bijay555/used_cars/blob/dev/dataset/1-cd94218e.png" alt="My Image" width="500" height="500">
+<img src="https://github.com/Bijay555/used_cars/blob/dev/dataset/1-cd94218e.png" alt="My Image" width="350" height="350">
 
 
 ## Table of Contents
