@@ -1,4 +1,4 @@
-# Used-Car-Price-Prediction-Model
+# Craiglist Car Price predictor and Recommender
 
 <img src="https://github.com/Bijay555/used_cars/blob/dev/dataset/1-cd94218e.png" alt="My Image" width="400" height="350">
 
